@@ -5,3 +5,28 @@
     display: flex;
     justify-content: center;
 }
+
+.headline {
+    color: rgb(61, 186, 61);
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 6px;
+}
+
+.login form {
+    margin-top: 20px;
+}
+
+.login input {
+    background-color: rgb(234, 247, 234);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 8px;
+}
+
+.submit-btn {
+    margin-top: 20px !important;
+    background-color: green !important;
+    color: white;
+}
