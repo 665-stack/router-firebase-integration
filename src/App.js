@@ -4,6 +4,7 @@ import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Login from './Components/Login/Login';
 import NotFound from './Components/NotFound/NotFound';
+import Register from './Components/Register/Register';
 
 function App() {
   return (
@@ -11,9 +12,13 @@ function App() {
     <div className="App">
       <Header></Header>
       <Routes>
+
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/register' element={<Register></Register>}></Route>
+
         <Route path='*' element={<NotFound></NotFound>}></Route>
+
       </Routes>
     </div>
   );
